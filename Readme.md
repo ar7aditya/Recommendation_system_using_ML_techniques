@@ -13,13 +13,13 @@ data.toarray()	converts the data to an array
 Pandas is a library for python language mainly for data manipulation and analysis. 
 It provides data structures and operations for manipulating numerical tables and datasets. <br>
 Example:  <br>
-Df = pd.DataFrame(data)	create a dataframe from data(array)
-movies = pd.read_csv(‘location/dataset’)	read dataset as a dataframe
-dataframe.head()	shows first 5 rows of dataframe
-dataframe.head(1)	shows first row
-df1.merge(df2, on=’column’)	merge 2 dataframes based on specified column
-dataframe.shape	shows shape of dataframe (rows x cols)
-dataframe.iloc[0]	list 0th row from the dataframe
+Df = pd.DataFrame(data)	create a dataframe from data(array) <br>
+movies = pd.read_csv(‘location/dataset’)	read dataset as a dataframe <br>
+dataframe.head()	shows first 5 rows of dataframe <br>
+dataframe.head(1)	shows first row <br>
+df1.merge(df2, on=’column’)	merge 2 dataframes based on specified column <br>
+dataframe.shape	shows shape of dataframe (rows x cols) <br>
+dataframe.iloc[0]	list 0th row from the dataframe <br>
 
 <h2>AST (Abstract syntax tree)</h2> <br>
 Example: <br>
@@ -28,17 +28,16 @@ ast.literal_eval(string object)	It converts string object to list
 <h2>Scikit-learn</h2>
 Sklearn is a machine learning library which provides support for various machine learning tools like vector, etc. <br>
 Example: <br>
-countVectorizer class 	         	get vector for words occurring in each tag out of 5000 words (0=no, 1=yes)
-cv = countVectorizer(max_features=5000,  stop_words=’english’)
-cv.fit_transform(tags column).toarray()	
-
-cosine_similarity class		get distance of each vector with every other vector
+countVectorizer class :	get vector for words occurring in each tag out of 5000 words (0=no, 1=yes) <br>
+cv = countVectorizer(max_features=5000,  stop_words=’english’)<br>
+cv.fit_transform(tags column).toarray()	 <br>
+cosine_similarity class :		get distance of each vector with every other vector<br>
 cosine_similarity(vectors) 
 
 <h2>NLTK	(Natural Language Toolkit)</h2>
 Python library to process English language.  <br>
 Example: <br>
-PorterStemmer class 		remove similar words, convert them to standard (love, loving, loved=love)
+PorterStemmer class :	remove similar words, convert them to standard (love, loving, loved=love)<br>
 ps = PorterStemmer()
 
 <h2>Pickle</h2>
