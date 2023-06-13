@@ -2,7 +2,7 @@
 <h2>Recommendation system using Machine Learning Techniques</h2> 
 <br>
 <br>
-<h2>---------------------------Content Based Filtering-----------------------------</h2>
+<h2>-------------------------Content Based Filtering---------------------------</h2>
 
 <h2>NumPy (Numerical Python)</h2>
 (arrays and functions on arrays) 
@@ -46,6 +46,6 @@ ps = PorterStemmer()
 Python pickle module is used for serializing and de-serializing python object structures.
 pickle.dump(dataset.to_dict(), open('dataset.pkl','wb'))		send dataset to folder as dictionary
 <br>
-<h2>---------------------------------------------------------------------------------</h2>
+<h2>-----------------------------------------------------------------------------</h2>
 <br><br>
-<h2>-------------------------Collaborative Based Filtering-------------------------</h2>
+<h2>-----------------------Collaborative Based Filtering-----------------------</h2>
