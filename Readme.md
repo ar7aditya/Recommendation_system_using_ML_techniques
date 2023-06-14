@@ -42,9 +42,6 @@ Example: <br>
 PorterStemmer class :	remove similar words, convert them to standard (love, loving, loved=love)<br>
 ps = PorterStemmer()
 
-<h2>Pickle</h2>
-Python pickle module is used for serializing and de-serializing python object structures.
-pickle.dump(dataset.to_dict(), open('dataset.pkl','wb'))		send dataset to folder as dictionary
 <br>
 <h2>-----------------------------------------------------------------------------</h2>
 <br><br>
